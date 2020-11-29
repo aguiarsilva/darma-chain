@@ -1,0 +1,29 @@
+{
+  "name": "darma-chain",
+  "version": "1.0.0",
+  "description": "Darma Blockchain",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --watchAll",
+    "dev_test": "nodemon dev_test",
+    "start": "node ./app",
+    "dev": "nodemon ./app"
+  },
+  "keywords": [
+    "Darma",
+    "Blockchain",
+    "Cryptocurrency"
+  ],
+  "author": "Bruno Aguiar",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^26.6.3",
+    "nodemon": "^2.0.6"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "crypto-js": "^4.0.0",
+    "express": "^4.17.1",
+    "ws": "^7.4.0"
+  }
+}
