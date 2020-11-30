@@ -9,10 +9,10 @@ class Wallet {
     }
 
     toString() {
-        return `Wallet - 
-        publicKey: ${this.publicKey.toString()}
-        balance  : ${this.balance}`
-    }
+        return `Wallet -
+        publicKey : ${this.publicKey.toString()}
+        balance   : ${this.balance}`
+      }
 }
 
 module.exports = Wallet;
