@@ -3,7 +3,7 @@ const Transaction = require('./transaction');
 const { INITIAL_BALANCE } = require('../config');
 
 class Wallet {
-    constuctor(){
+    constuctor() {
         this.balance = INITIAL_BALANCE;
         this.keyPair = ChainUtil.genKeyPair();
         this.publicKey = this.keyPair.getPublic().encode('hex');
