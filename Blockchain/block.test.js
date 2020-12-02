@@ -1,5 +1,4 @@
 const Block = require('./block');
-const { DIFFICULTY } = require('../config');
 
 describe('Block', () => {
     let data, lastBlock, block;

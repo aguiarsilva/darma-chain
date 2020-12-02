@@ -32,7 +32,7 @@ describe('Transaction', () => {
         expect(Transaction.verifyTransaction(transaction)).toBe(false);
     });
 
-    describe('transaction with an amount that exceeds the balance', () => {
+    describe('transacting with an amount that exceeds the balance', () => {
         beforeEach(() => {
             amount = 50000;
             transaction = Transaction.newTransaction(wallet, recipient, amount);

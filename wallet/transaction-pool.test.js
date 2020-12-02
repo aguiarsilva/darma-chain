@@ -8,7 +8,7 @@ describe('TransactionPool', () => {
     beforeEach(() => {
         tp = new TransactionPool();
         wallet = new Wallet();
-        transaction = Transaction.newTransaction(wallet, 'r4nd=4ddr355', 30);
+        transaction = Transaction.newTransaction(wallet, 'r4nd-4ddr355', 30);
         tp.updateOrAddTransaction(transaction);
     });
 
